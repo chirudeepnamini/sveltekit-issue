@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content="script-src 'self' 'sha256-vcM02ybV5AL1ye50l3REFlx7X0T57ATTV3r3Dywhv58='">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.f12e81ee.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.763692f6.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.dec15a81.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.c1d64499.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.8138219e.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.a9313865.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <p>count is 0</p> <button data-svelte-h="svelte-1l8wlms">increment</button> <button data-svelte-h="svelte-1nbdk0o">decrement</button> 
+			
+			<script >
+				{
+					__sveltekit_mi39o1 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.f12e81ee.js"),
+						import("./_app/immutable/entry/app.dec15a81.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
